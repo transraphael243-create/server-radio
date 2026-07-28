@@ -1,9 +1,13 @@
 {
-  "name": "radio-server",
+  "name": "server-radio",
   "version": "1.0.0",
+  "description": "Serveur radio talkie-walkie",
   "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5"
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
   }
 }
